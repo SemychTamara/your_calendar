@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Baloo Paaji 2', cursive;
+    width: 100%;
+    background-image:url(img/first_page.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.log_in h2{
+    margin-top: 50px;
+    margin-left: 26%;
+    margin-bottom: 10px;
+    width: 35%;
+    font-size: 65px;
+    line-height: 95px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.form{
+    display: block;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.form_control{
+    padding: 10px 20px ;
+    width: 35%;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: transparent;
+    outline: none;
+    font-family: "Baloo Paaji 2", cursive;
+    font-weight: bold;
+}
+
+.log_in button{
+    margin-top: 20px;
+    margin-left: 24%;
+    padding: 3px;
+    width: 20%;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.75) ;
+    font-family: "Baloo Paaji 2", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    color: #DDE5E8;
+}
+button:hover{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+
+button:active{
+    position:relative;
+    cursor: pointer;
+}
+
+.sign_up{
+    display: flex;;
+
+    margin-left: 22%;
+}
+
+.sign_up p{
+    margin-top: 20px;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+.sign_up a{
+    margin-top: 17px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
