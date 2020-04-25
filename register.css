@@ -71,7 +71,6 @@ button:active{
 }
 .sign_in{
     display: flex;;
-
     margin-left: 22%;
 }
 
@@ -86,4 +85,90 @@ button:active{
     font-weight: bold;
     font-size: 20px;
     color: black;
+}
+
+@media screen and (max-width: 975px) {
+    *, *:after, *:before {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        transition: .5s ease-in-out;
+    }
+
+    .register h2{
+        font-size: 60px;
+        margin-left: 25%;
+        width: 40%;
+        line-height: 70px;
+    }
+
+    .form_control{
+        width: 60%;
+    }
+
+    .register button{
+        width: 30%;
+        margin-left: 30%;
+    }
+
+    .sign_in{
+        margin-left: 32%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    *, *:after, *:before {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        transition: .5s ease-in-out;
+    }
+
+    .register h2{
+        font-size: 45px;
+        margin-left: 25%;
+        width: 40%;
+        line-height: 60px;
+    }
+
+    .form_control{
+        width: 60%;
+    }
+
+    .register button{
+        width: 40%;
+        margin-left: 25%;
+    }
+
+    .sign_in{
+        margin-left: 28%;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    *, *:after, *:before {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        transition: .5s ease-in-out;
+    }
+    .register h2{
+        font-size: 45px;
+        margin-left: 30%;
+        width: 40%;
+        line-height: 60px;
+    }
+
+    .form_control {
+        width: 80%;
+    }
+
+    .register button {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    .sign_in {
+        margin-left: 25%;
+    }
 }
