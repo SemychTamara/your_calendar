@@ -73,7 +73,6 @@ button:active{
 
 .sign_up{
     display: flex;;
-
     margin-left: 22%;
 }
 
@@ -88,4 +87,43 @@ button:active{
     font-weight: bold;
     font-size: 20px;
     color: black;
+}
+
+@media screen and (max-width: 975px) {
+    *, *:after, *:before {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        transition: .5s ease-in-out;
+    }
+
+    .form_control{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    *, *:after, *:before {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        transition: .5s ease-in-out;
+    }
+
+    .log_in h2{
+        font-size: 45px;
+        margin-left: 33%;
+        width: 40%;
+    }
+
+    .form_control{
+        width: 80%;
+    }
+
+
+    .log_in button{
+        width: 40%;
+        margin-left: 33%;
+    }
+
 }
